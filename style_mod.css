@@ -1,0 +1,16 @@
+button.interact-button {
+    scale: 2;
+    font-weight: 900;
+    border: 2px solid black;
+    appearance: none;
+    margin-bottom: 50px;
+     background-color: white;
+     border-radius: 7px;
+}
+
+
+@media screen and (max-width:700px) {
+    button.interact-button {
+        scale: 1.7;
+    }
+}
